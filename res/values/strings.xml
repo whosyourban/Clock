@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="timepick">选择时间</string>
+	<string name="alarm">响铃界面</string>
+	<string name="question">问题界面</string>
+	<string name="stop">停止响铃</string>
+	<string name="start">启动闹钟</string>
+	<string name="cancel">取消闹钟</string>
+	<string name="submit">确定</string>
+	<string name="back">返回</string>
+</resources>

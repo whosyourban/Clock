@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </AnalogClock>
+
+    <DigitalClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14pt" />
+
+	<Button 
+        android:id="@+id/timebutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/timepick" />
+	<Button
+	    android:id="@+id/startbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start" 
+	    />
+	<Button
+	    android:id="@+id/cancelbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" 
+	    />
+	<TextView
+	    android:id="@+id/alarmtime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       	android:textSize="20sp"
+	    ></TextView>
+	<TextView
+	    android:id="@+id/isset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       	android:textSize="20sp"
+	    ></TextView>
+	
+</LinearLayout>
